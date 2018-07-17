@@ -15,7 +15,7 @@ export class LoginFormComponent implements OnInit {
   loginUser(e) {
     e.preventDefault();
     console.log(e);
-    var username = e.target.elements[0].value;
+    const username = e.target.elements[0].value;
     const password = e.target.elements[1].value;
     console.log(username, password);
     return false;
